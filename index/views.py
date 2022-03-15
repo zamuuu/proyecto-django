@@ -12,3 +12,6 @@ def plantilla(request):
         'apellido': 'Fort'
     }
     return render(request, 'index/plantilla.html', datos)
+
+def blog(request):
+    return render(request, 'index/blog.html', {})
